@@ -8,10 +8,26 @@ using namespace std;
 
 // @lc code=begin
 
+// 由中文站已通过解法迁移至美国站，迁移日期：2026-11-05。
+// 原题：https://leetcode.cn/problems/two-sum/
+// 此提交为历史解法迁移，本轮重新练习进度单独记录。
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> seen;
 
+        for (int i = 0; i < nums.size(); i++) {
+            int need = target - nums[i];
+
+            if (seen.count(need)) {
+                return {seen[need], i};
+            }
+
+            seen[nums[i]] = i;
+        }
+
+        return {};
     }
 };
 

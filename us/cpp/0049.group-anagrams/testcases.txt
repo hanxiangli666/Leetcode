@@ -1,0 +1,14 @@
+input:
+["eat","tea","tan","ate","nat","bat"]
+output:
+[["ate","eat","tea"],["bat"],["nat","tan"]]
+
+input:
+[""]
+output:
+[[""]]
+
+input:
+["a"]
+output:
+[["a"]]

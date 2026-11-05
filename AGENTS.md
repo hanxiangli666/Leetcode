@@ -4,7 +4,7 @@
 - Background: `MAC_LEETCODE_HANDOFF.md`. Its installation and account snapshots are historical; inspect current files and actual results.
 - Run new practice commands from `us/`. Its `leetgo.yaml` targets leetcode.com, English statements, C++17 and clang++.
 - Root `leetgo.yaml`, `cpp/` and `contest/` are Chinese-site history. Keep new work in `us/cpp/`.
-- This US training round starts at zero. Generated templates and environment checks do not count as solved problems. Confirm actual implementations and US Accepted results.
+- Track historical Chinese-site migrations separately from this new training round. See `us/MIGRATION.md` for verified migration submissions; migration Accepted results do not count as newly practised problems. Migrated problems remain eligible for intentional practice from scratch.
 - Teach in Chinese with small examples, variable meanings, hand tracing and short code checkpoints. Give complete code when explicitly requested.
 - For an ordinary problem, “提交 / 直接提交 / 提交推送” authorizes local and remote testing, official US submission, then a scoped Git commit and push. Environment setup alone does not authorize an official problem submission.
 - Credentials are private local state in `us/.env` or the browser. Never print or commit credential values. Check ignored status before staging.
