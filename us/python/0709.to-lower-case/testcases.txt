@@ -1,0 +1,14 @@
+input:
+"Hello"
+output:
+"hello"
+
+input:
+"here"
+output:
+"here"
+
+input:
+"LOVELY"
+output:
+"lovely"

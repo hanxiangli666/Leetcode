@@ -1,0 +1,17 @@
+input:
+"aa"
+"aaaa"
+output:
+3
+
+input:
+"xyz"
+"xyzz"
+output:
+2
+
+input:
+"cbc"
+"cbcdbc"
+output:
+4

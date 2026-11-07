@@ -1,0 +1,9 @@
+input:
+"ff"
+output:
+true
+
+input:
+"leet"
+output:
+false

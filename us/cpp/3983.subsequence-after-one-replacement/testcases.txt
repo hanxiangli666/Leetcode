@@ -1,0 +1,11 @@
+input:
+"cat"
+"chat"
+output:
+true
+
+input:
+"plane"
+"apple"
+output:
+false

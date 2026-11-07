@@ -1,13 +1,14 @@
-# 美国站 C++ 刷题
+# 美国站刷题
 
-本轮重新练习从 0 开始。旧中国站代码保留在仓库根的 `cpp/` 和 `contest/`，迁移后的美国站解法及新题放在这里的 `cpp/`。
+日常教学使用 C++17。旧中国站仓库保留在根目录 `cpp/` 和 `contest/`；从账号补取的原始代码及来源保存在 `cn-history/`。美国站 C++ 解法放在 `us/cpp/`，历史 Python 解法保留在 `us/python/`。
 
 ## 当前进度
 
 | 记录 | 状态 |
 | --- | --- |
-| 历史中文站迁移 | **38 题全部美国站正式 Accepted**，详见 [迁移记录](MIGRATION.md) |
-| 本轮重新练习 | 0 题，可从已迁移的题目中重新练习 |
+| 历史中文站迁移 | **账号全部 90 题美国站正式 Accepted（38 + 52）**，详见 [迁移记录](MIGRATION.md) |
+| 互动教学完成 | 0 题；第 125 题仍为未完成模板 |
+| 本次双周赛 | 用户自行通过 2 题，8 分；不计入历史迁移 |
 
 美国站账号的已解题数会包含迁移提交。迁移成果与重新练习进度分开记录；每份迁移代码都注明中文站来源及迁移日期。
 
@@ -49,4 +50,6 @@ python3 cpp/0138.copy-list-with-random-pointer/test_local.py
 - labuladong：已登录的 Chrome 插件，以及 `~/.labuladong/problemlist.json`、`meta.json`。本机缓存不随仓库同步。
 - 旧规则和迁移背景：仓库根的 `MAC_LEETCODE_HANDOFF.md`。
 
-2026-11-05（America/New_York）迁移验证：38 题共 113 组本地用例通过，每题均通过美国站远程 Run 和正式提交；38 个独立 Accepted 提交编号已记录，官网逐题状态已复核为 `ac`。
+2026-11-07（America/New_York）完整对账：90 题、254 组本地用例，全部美国站远程 Run 和正式提交 Accepted，90 个独立提交编号和逐题状态已复核。此前的 38 只代表本地仓库范围，本次补齐账号中遗漏的 52 道。
+
+历史 Python 题保留原语言，可用 `leetgo test <题号> --local -l python3`。第 142 题的本地入口为 `python3 cpp/0142.linked-list-cycle-ii/test_local.py`；远程测试及提交仍使用 leetgo。
