@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pytest
+# 只用于对拍，可选
+# torch
