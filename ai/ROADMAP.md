@@ -9,8 +9,8 @@
 
 - **按关卡走，不按周走。** 有空就推进一关，忙的时候停下也没关系。"参考用时"只是让你心里有数。
 - **每一小节的固定流程：**
-  1. 在站点上读对应文章（站点用 PyTorch 讲解，配有交互图和在线 Notebook）。
-  2. 如果文章带配套练习题，先在站点上刷一遍（像刷 LeetCode 一样）。
+  1. Claude 在你的 Chrome 里读对应文章（站点用 PyTorch 讲解，配有交互图和在线 Notebook），按你的水平用中文讲给你。
+  2. 如果文章带配套练习题，Claude 把题意转述给你，先口头或在 PyTorch 里过一遍。
   3. 回到这个仓库，**只用 NumPy** 重写核心算法：先中文讲直觉 + 能手算的小例子，手推公式，关键一行自己写。
   4. 验收：数值梯度检查（`ai/common/gradcheck.py`）/ 和 PyTorch 对拍 / 小数据上 loss 下降。
   5. 一句话复盘：核心思想是什么，和哪道 LeetCode 结构相似。
@@ -236,7 +236,7 @@
 
 ## 参考资料
 
-- 主线：labuladong.online →「AI 开发」→《机器学习 & LLM 算法》《Agent 原理和开发》（会员内容，自己读，不照抄进仓库）
+- 主线：labuladong.online →「AI 开发」→《机器学习 & LLM 算法》《Agent 原理和开发》（会员内容，Claude 上课时读，笔记用自己的话写，不照抄进仓库）
 - Andrej Karpathy：*Neural Networks: Zero to Hero*（micrograd、makemore、nanoGPT，和关卡 4–6 高度对应）
 - Stanford CS231n 课程笔记
 - *The Annotated Transformer*
