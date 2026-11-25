@@ -1,0 +1,11 @@
+input:
+"abc"
+"ahbgdc"
+output:
+true
+
+input:
+"axc"
+"ahbgdc"
+output:
+false
